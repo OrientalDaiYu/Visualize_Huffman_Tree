@@ -1,5 +1,8 @@
 # Visualize_Huffman_Tree
-该项目旨在可视化Huffman树，但在此之前，先要给你的电脑安装好Graphviz（如果没有）。
+
+该项目旨在根据ASCII码表统计英文文章（.txt）中的字符和出现频率（也可以手动给出），通过Haffman算法**生成并可视化**Huffman树。
+
+但在此之前，先要给你的电脑安装好Graphviz（如果没有）。
 
 Graphviz 是一个开源的图形可视化软件，可以通过以下步骤进行下载和安装：
 
@@ -41,3 +44,4 @@ dot -Tpng huffman_tree.dot -o huffman_tree.png
 ```
 
 这样就可以生成图形文件并查看霍夫曼树的可视化结果。
+但在该项目中，无需手动执行这个命令，只需要找到main函数并执行它即可。
